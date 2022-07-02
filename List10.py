@@ -6,4 +6,7 @@ def main(list_num):
     Returns:
         int: return answer
     """
-    return
+    l=list_num.pop(0)
+    k=list_num.pop(-1)
+    x=max(l,k)
+    return x

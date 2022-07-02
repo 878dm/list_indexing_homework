@@ -6,4 +6,5 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    k=list1.pop(-1)
+    return k

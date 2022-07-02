@@ -6,4 +6,9 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    return
+    i=0
+    while i<len(list1):
+        if list1[i]==list1[i+1] and list1[i]==list1[i+2] and list1[i]==list1[i+3] and list1[i]==list1[i+4]:
+            return True
+        else :
+           return False
